@@ -7,3 +7,6 @@
 #!/bin/sh 
 brew install redis
 #启动 redis，可以使用后台服务启动 brew services start redis。或者直接启动：redis-server /usr/local/etc/redis.conf
+
+#启动 Redis
+redis-server
